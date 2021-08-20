@@ -13,3 +13,22 @@ html {
 body {
   margin: 0;
 }
+
+header, h2, h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+strong {
+  font-style: italic;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
